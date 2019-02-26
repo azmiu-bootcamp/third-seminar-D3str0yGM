@@ -1,0 +1,8 @@
+list = []
+defe = int(input("nece reqem daxil etmek isteyirsiniz?:"))
+for n in range(defe):
+    reqem = int(input("reqemi daxil edin : "))
+    list.append(reqem)
+print("en boyuk reqem:",max(list))
+print("en kicik reqem:",min(list))
+print("en boyuk ve en kicik reqemlerin cemi:",max(list)+min(list))
