@@ -1,0 +1,11 @@
+import random
+texmin_edilecek = random.randint(1, 99)
+x = 0
+while x != texmin_edilecek:
+    x = int(input("texmin etmek ucun reqemi daxil edin:"))
+    if x > texmin_edilecek:
+        print("daha kicik reqem daxil edin!")
+    elif x < texmin_edilecek:
+        print("daha boyuk reqem daxil edin!")
+    elif x == texmin_edilecek:
+        print("TEBRIKLER!")
