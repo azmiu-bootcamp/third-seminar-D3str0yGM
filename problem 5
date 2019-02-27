@@ -1,0 +1,4 @@
+liste = []
+soz = input("sozu daxil edin:")
+liste.append(soz)
+print(soz[0:2]+soz[-2]+soz[-1])
